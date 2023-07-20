@@ -1,4 +1,3 @@
-
 let seconds = 30;
 let correctAnswer = 0;
 let incorrectAnswer = 0;
@@ -11,6 +10,7 @@ function timer() {
   setTimeout(finish, seconds * 1000);
   getElement("time").innerHTML = seconds;
   let countdown = setInterval(function () {
+    main();
     seconds--;
     getElement("time").textContent = seconds;
     if (seconds <= 0) {
@@ -43,3 +43,16 @@ function finish() {
 }
 let checkInterval = setInterval(check, 50);
 timer()
+
+
+
+
+
+function getRandomFlower() {
+  return flowers[Math.floor(Math.random(flowers.length - 1) * 10)]
+}
+
+function main() {
+  flow = getRandomFlower();
+  getElement("flower").src = flow.flower;
+}
