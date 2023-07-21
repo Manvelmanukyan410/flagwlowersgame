@@ -38,7 +38,17 @@ function check() {
 }
 function finish() {
   clearInterval(checkInterval);
-  let percentage = (correctAnswer / (correctAnswer + incorrectAnswer)) * 100;
+  let percentage = Math.round((correctAnswer / (correctAnswer + incorrectAnswer)) * 100);
+  if (isNaN(percentage)) {
+    resultForAnswers = 100;
+  } else {
+    if (percentage >= 75 && percentage < 95) {
+      resultForAnswers = "65@ "
+    } else if (percentage >= 95) {
+      resultForAnswers = "100@ "
+    }
+
+  }
   getElement("alertaccuracy").innerHTML = ` քո ճիշտ պատասխաններն են ${percentage}`;
 }
 let checkInterval = setInterval(check, 50);
@@ -56,3 +66,23 @@ function main() {
   flow = getRandomFlower();
   getElement("flower").src = flow.flower;
 }
+
+function main() {
+  let options = [];
+  const maxOptions = 3;
+  while (maxOptions.length < maxOptions) {
+    let coun = getRandomFlower();
+    if (options.indexOf(coun) === -1) {
+      options.push(coun);
+    }
+  }
+  for (let i = 0; i < options.length; i++) {
+    getElement(`option${i + 1}label`).innerHTML = options[i].name;
+    getElement(`option${i + 1}input`).value = options[i].name;
+    getElement(`option${i + 1}input`).checked = false;
+  }
+  correct = options[Math.round(Math.random() * (options.length - 1))];
+  getElement("flower").src = correct.flower
+}
+main()
+timer()

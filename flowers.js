@@ -36,7 +36,7 @@ const flowers = [
         "name": "վարդ"
     },
     {
-        "flower": "./hol/10.jpeg",
+        "flower": "./hol/10.jpg",
         "name": "վարդ"
     },
     {
