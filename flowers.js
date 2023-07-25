@@ -1,11 +1,11 @@
 const flowers = [
     {
         "flower": "./hol/1.jpg",
-        "name": "վարդ"
+        "name": "ձնծաղիկ"
     },
     {
         "flower": "./hol/2.jpg",
-        "name": "վարդ"
+        "name": "քրիզանթեմ"
     },
     {
         "flower": "./hol/3.jpg",
@@ -13,103 +13,99 @@ const flowers = [
     },
     {
         "flower": "./hol/4.jpg",
-        "name": "վարդ"
+        "name": "գեորգինա"
     },
     {
         "flower": "./hol/5.jpg",
-        "name": "վարդ"
+        "name": "մանուշակ"
     },
     {
         "flower": "./hol/6.jpg",
-        "name": "վարդ"
+        "name": "արևածաղիկ"
     },
     {
         "flower": "./hol/7.jpg",
-        "name": "վարդ"
+        "name": "աստղածաղիկ"
     },
     {
         "flower": "./hol/8.jpg",
-        "name": "վարդ"
+        "name": "թրաշուշան"
     },
     {
         "flower": "./hol/9.jpg",
-        "name": "վարդ"
+        "name": "զանգակ"
     },
     {
         "flower": "./hol/10.jpg",
-        "name": "վարդ"
+        "name": "օրխիդեա"
     },
     {
         "flower": "./hol/11.jpg",
-        "name": "վարդ"
+        "name": "ամբրոսիա"
     },
     {
         "flower": "./hol/12.jpeg",
-        "name": "վարդ"
+        "name": "ջրաշուշան"
     },
     {
         "flower": "./hol/13.jpeg",
-        "name": "վարդ"
+        "name": "երիցուկ"
     },
     {
         "flower": "./hol/14.jpg",
-        "name": "վարդ"
+        "name": "անեմոն"
     },
     {
-        "flower": "./hol/15.jpg",
-        "name": "վարդ"
+        "flower": "./hol/15.jpeg",
+        "name": "գլադիոլուս"
     },
     {
-        "flower": "./hol/16.jpeg",
-        "name": "վարդ"
+        "flower": "./hol/16.jpg",
+        "name": "ակացիա"
     },
     {
-        "flower": "./hol/17.jpg",
-        "name": "վարդ"
+        "flower": "./hol/17.jpeg",
+        "name": "կակաչ"
     },
     {
-        "flower": "./hol/18.jpeg",
-        "name": "վարդ"
+        "flower": "./hol/18.jpg",
+        "name": "շուշան"
     },
     {
         "flower": "./hol/19.jpg",
-        "name": "վարդ"
+        "name": "իռլանդական վարդ"
     },
     {
         "flower": "./hol/20.jpg",
-        "name": "վարդ"
+        "name": "անմոռուկ"
     },
     {
         "flower": "./hol/21.jpg",
-        "name": "վարդ"
+        "name": "եռագույն մանուշակ"
     },
     {
         "flower": "./hol/22.jpg",
-        "name": "վարդ"
+        "name": "նունուֆար"
     },
     {
         "flower": "./hol/23.jpg",
-        "name": "վարդ"
+        "name": "լիլիա"
     },
     {
-        "flower": "./hol/24.jpg",
-        "name": "վարդ"
+        "flower": "./hol/24.jpeg",
+        "name": "մեխակ"
     },
     {
         "flower": "./hol/25.jpeg",
-        "name": "վարդ"
+        "name": "կալա"
     },
     {
-        "flower": "./hol/26.jpeg",
-        "name": "վարդ"
+        "flower": "./hol/26.jpg",
+        "name": "յասաման"
     },
     {
         "flower": "./hol/27.jpg",
-        "name": "վարդ"
-    },
-    {
-        "flower": "./hol/28.jpg",
-        "name": "վարդ"
+        "name": "նարգիզ"
     },
        
   ]

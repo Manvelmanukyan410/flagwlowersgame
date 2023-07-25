@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title> 🌼 FLOWERS GAME</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='./style.css'>
-    <h1>ծաղիկներ</h1>
+    <h1>Ծաղիկներ</h1>
 
 </head>
 
 <body>
     <section class="card" id="card">
+        
         <section class="infobar">
-            <div style="width: 7%"class="score">ճիշտ պատասխանների քանակը: <span id="alertaccuracy"></span></div>
-        </section>
-        <section class="infobar">    
             <div class="score">միավոր: <span id="score">0</span></div>
             <div class="time" id="time"></div>
         </section>
         <div class="container">
             <section class="section">
-                <img src="" alt="flower" class ="flower" id="flower" >
+                <img src="" alt="flower" class="flower" id="flower">
             </section>
             <div class="border"></div>
             <section class="section" id="optionhalf">
@@ -40,16 +39,19 @@
                         <label for="option3input" class="label" id="option3label">մանուշակ</label>
                     </div>
                 </div>
-            
+
             </section>
         </div>
-    </section>    
+    </section>
+    <section id="alert" class="card">
+        <div class="alerttext">Միավոր: <span id="alertscore"></span></div>
+        <div class="alerttext">Ճշգրտություն: <span id="alertaccuracy"></span></div>
+        <br>
+        <button onclick="refresh()" class="button">խաղալ նորից</button>
+    </section>
     <script src='flowers.js'></script>
     <script src='main.js'></script>
 
 </body>
 
 </html>
-
-
-
