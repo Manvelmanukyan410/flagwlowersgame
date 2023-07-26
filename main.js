@@ -1,4 +1,4 @@
-let seconds = 5;
+let seconds = 50;
 let correctAnswer = 0;
 let incorrectAnswer = 0;
 
@@ -7,7 +7,7 @@ function getElement(id) {
 }
 
 function getRandomFlower() {
-  return flowers[Math.floor(Math.random(flowers.length - 1) * 10)]
+  return flowers[Math.floor(Math.random()* (flowers.length - 1))]
 }
 
 function timer() {
